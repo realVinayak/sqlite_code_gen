@@ -171,3 +171,11 @@ int main() {
   exit_if_not_ok(rc, errMsg, SQLITE_DONE);
 }
 ```
+
+## Installation
+
+To install, run 
+
+```
+pip install -e .
+```
