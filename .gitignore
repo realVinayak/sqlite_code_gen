@@ -1,0 +1,4 @@
+sqlite_code_gen/__pycache__
+sqlite_code_gen.egg-info/
+
+tests/__pycache__

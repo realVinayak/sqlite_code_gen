@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sqlite_code_gen"
+version = "0.1.0"
+description = "SQL to C code generator for SQLite3"
+authors = [{ name="Vinayak Jha", email="leppox@proton.me" }]
+readme = "README.md"
+requires-python = ">=3.7"
+
+[project.scripts]
+sqlite_code_gen = "sqlite_code_gen.__main__:main"
+
+[project.optional-dependencies]
+dev = ["pytest"]
